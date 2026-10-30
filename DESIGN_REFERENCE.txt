@@ -1,0 +1,121 @@
+LEVEL DESIGN REFERENCE - READ BEFORE CHANGING STAGE LAYOUTS
+Recorded 2026-10-30. User-supplied reference:
+https://www.youtube.com/watch?v=PgUssv-fV7w
+MKIceAndFire, HOLLOW KNIGHT SILKSONG Gameplay Walkthrough FULL GAME.
+Source runtime: 11:57:54.
+
+WHAT WAS ACTUALLY STUDIED
+All 54 chronological atlas pages, approximately one source image every ten
+seconds, covering the opening, every intervening timeline segment, final fight,
+ending and credits. Four passages were then inspected at half-second intervals:
+00:05:20-00:06:08, 03:14:30-03:15:18, 07:17:00-07:17:48,
+10:31:20-10:32:08. This is a visual study across the entire timeline, not a claim
+to have watched every second or heard the audio. Sampling cannot establish exact
+combat timing, every route connection, input feel or sound design. The title's
+"FULL GAME" is the uploader's description, not verification of all game content.
+
+Source video, original storyboards, chronological atlas, dense windows and
+working observations are retained in artifacts/reference-study/. That directory
+has .gdignore. Reference footage is for research; never ship it as a game asset.
+
+THE ERROR TO CORRECT
+We treated reachable platforms, climb counts, supported props and passing route
+tests as evidence of good level design. Those establish basic function. They do
+not establish enjoyable decisions, orientation, pacing, composition or atmosphere.
+Adding detail to a weak room section preserves the weak section.
+
+OBSERVATIONS TO APPLY, WITH EXAMPLES TO REOPEN
+1. Shape the whole room, including the solids around the playable void.
+   00:03-00:07 Moss Grotto: thick rock masses, ceiling overhangs, cavities,
+   narrow throats and openings. The floor is only one boundary of the design.
+   In the dense opening window, a broad ground fight leads into a rising series
+   of landings, enemies and spike-edged ceilings, then a lower crossing.
+   The next landing, threat and recovery space give each platform a purpose.
+   Floating platforms can be intentional; banning them misses the lesson.
+
+2. Verticality needs actions and changing constraints.
+   03:14:30-03:15:18 Shellwood: a short approach opens into a winding shaft.
+   Wall contours vary the space; alternating wall shelves provide pauses while
+   enemies and later thorn surfaces change which side is safe to approach.
+   The player stops, fights, repositions and climbs. More ladder length would
+   not reproduce those decisions. Do not copy later-game hazard density into
+   our introductory rooms without teaching the required movement first.
+
+3. Architecture can make a simple climb coherent.
+   07:17:00-07:17:48 Grand Gate: an open lit approach leads through a threshold
+   into a tall hall. Balconies attach to columns; a few hang from chains.
+   Repeated tall windows and darker columns establish scale and readable layers.
+   The climb itself repeats simple jumps, including retries. Variety does not
+   require a different mechanic every few seconds. What matters here is a clear
+   local rule, convincing architecture, readable landings and recovery.
+
+4. Compose a sequence of different room roles.
+   00:12-00:15 Bone Bottom: inhabited refuge with shelters, lamps and occupants
+   clustered around common ground. 01:35-01:41: traversal/combat, quiet forge,
+   then Lace's broad arena. 08:34-08:46: Songclave frontage and Cogwork Dancers.
+   Alternate low passages, shafts, wide fights, overlooks, refuges and rewards.
+   Intentional empty action space is valuable. Uniform visual density is not.
+
+5. Fit an encounter to its space and the player's available movement.
+   02:56-02:59 Moorwing: broad ground lane and tall airspace serve a flying boss.
+   08:40-08:46 Cogwork Dancers: clear floor and overhead volume serve two mobile
+   opponents. 11:12-11:17: wave combat uses a lower floor and central upper shelf.
+   Choose an approach, a readable threat, an escape/recovery option and a reward.
+   Enemy counts and stronger impact effects cannot fix poorly staged encounters.
+   Exact telegraph, hit-stop and hitbox tuning still need live game verification.
+
+6. Give progression a spatial reason to return.
+   05:25-05:26 Great Gate: a recognizable gate makes the missing requirement
+   meaningful. Revisited towns and landmarks recur throughout the walkthrough.
+   10:31:20-10:32:08: low lava crossings lead to a framed Clawline reward, then
+   the player returns through high anchors already visible along the approach.
+   Present a goal before its key, and create a new useful action after a reward.
+   Our physical boss return is necessary; compact recognizable loops and
+   unfinished destinations should make using it worthwhile.
+
+7. Build depth from distinct planes and plausible light.
+   06:52-07:11 Underworks: fixtures, vents, masonry and diagonal shafts of light
+   organize openings and landings. Grand Gate's windows light the room behind
+   darker playable architecture. In late arenas, restrained backgrounds leave
+   room for large temporary combat effects. Darkness alone does not create mood.
+   Separate collision silhouettes, enemies, architecture and distance by value,
+   color and overlap. Reserve foreground occlusion for deliberate framing.
+
+8. Props should explain a place or activity.
+   NPC workspaces, transport stations, shrines and inhabited shelters have
+   functional clusters. Match asset perspective, ground contact and scale.
+   Keep landing lips, combat recovery lanes and interactables readable. Blank
+   space is not an instruction to scatter another urn, candle or campfire.
+
+9. Change the terrain grammar between locations.
+   Deep Docks (01:07-01:18) combines cave forms with working loading machinery.
+   Cogwork Core (08:49-09:08) uses gears as room shapes and movement constraints.
+   Mount Fay (11:20-11:36) uses snow banks, narrow rock throats and angled ice.
+   Transitions should share materials, forms and activities before the new area's
+   vocabulary takes over. A palette change or background swap is insufficient.
+
+WATER AND AUDIO: KEEP EVIDENCE SEPARATE
+Water imagery near 03:39-03:47 shows bounded water, banks and a bridge approach;
+it does not establish swimming, currents or controllable water levels. Those are
+our user's requested mechanics. Author banks, depth, inlet/outlet and visible
+route choices first; then make surface motion, contact effects and underwater
+readability support them. No SFX or OST conclusions were drawn from this silent
+visual copy. The requested Haunted Manor OST and local SFX kit remain the audio
+direction; listen to assets and live mixes when working on sound.
+
+HOW TO USE THIS REFERENCE IN FUTURE WORK
+Read STAGE1_DESIGN_AUDIT.txt, choose one room sequence and reopen its relevant
+reference window before editing. Use atlas-index.json to find other passages.
+If a lesson becomes vague, re-examine the source sequence instead of inventing
+what it showed. review_window.py can extract a new timestamped 2-fps sequence:
+  python artifacts/reference-study/review_window.py --start 07:17:00 --seconds 48 --name hall-revisit
+The full local video is artifacts/reference-study/silksong-full-360p.mp4.
+
+Before decorating, specify the room's purpose, entrance view, player decision,
+movement constraints, recovery, reward, exit and return behavior. Check the full
+room section and normal gameplay camera. Then verify with enemies active, ordinary
+keyboard and controller inputs, both travel directions and missed optional items.
+Connectivity automation is useful regression coverage; visual review and live
+play are also required. The user's 10-20 minute first-clear goal remains unproven
+until appropriate first-time playtesting. This expert twelve-hour walkthrough
+does not establish an appropriate duration or pixel width for our stage.

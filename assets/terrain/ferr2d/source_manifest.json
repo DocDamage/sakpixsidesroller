@@ -1,0 +1,22 @@
+[
+  {
+    "package_path": "Assets/Ferr/2DTerrain/Examples/Assets/Materials/RockyFill.png",
+    "bytes": 3005
+  },
+  {
+    "package_path": "Assets/Ferr/2D/Scripts/Ferr2D_Path.cs",
+    "bytes": 39203
+  },
+  {
+    "package_path": "Assets/Ferr/2DTerrain/Scripts/Ferr2DT_PathTerrain_Legacy.cs",
+    "bytes": 44868
+  },
+  {
+    "package_path": "Assets/Ferr/2DTerrain/Scripts/Ferr2DT_SegmentDescription_Partial.cs",
+    "bytes": 12562
+  },
+  {
+    "package_path": "Assets/Ferr/2DTerrain/TerrainMaterials/CastleUnlit.asset",
+    "bytes": 7751
+  }
+]

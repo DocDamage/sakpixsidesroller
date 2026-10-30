@@ -1,0 +1,170 @@
+STAGE 1 - DESIGN AUDIT AFTER THE SILKSONG VISUAL STUDY
+2026-10-30. Original design brief; implementation progress is recorded below.
+Read DESIGN_REFERENCE.txt for evidence, scope and limitations.
+
+EVIDENCE REVIEWED IN OUR BUILD
+Existing captures: artifacts/district_quarter.png, district_bell_landing.png,
+district_drowned.png, district_chapel_undercroft.png, district_return_map.png.
+Layout declaration: scripts/district_layout.gd. WIDTH is 19200, with named room
+rectangles and long connecting floor runs, including a 6620px return gallery.
+These captures demonstrate composition at specific positions; they are not a new
+full-stage live playtest. No new claim about collision or combat feel is made.
+
+1. CROOKED QUARTER - MAKE THE HUB A READABLE PLACE
+Observed: the captured view is dominated by a uniform brick wall. A ladder runs
+from the street beyond the camera top; two dark arches and ritual information
+compete without a strong architectural hierarchy. Top and bottom HUD bands also
+reduce usable view and vertical anticipation.
+Proposed sequence: enter from a lower, compressed lane into a small open court.
+Frame the ritual in one recognizable building frontage, show the bell tower above
+an offset roof opening, and expose the lower-route grille at a distinct corner.
+Use deep door recesses, roof silhouettes and a glimpse through an arch to give
+the block thickness. Group useful props around the ritual/NPC workspace. Leave
+the junction and landing clear. Introduce the sealed destination before sending
+the player for seals; do not rely only on the objective text.
+Check: from each entrance, a player can identify the court, the next available
+route and the destination to revisit. Review HUD/camera space alongside geometry.
+
+2. BELL ROUTE - REPLACE THE OPEN SCAFFOLD SECTION WITH A TOWER JOURNEY
+Observed: the landing capture shows thin timber platforms, long straight posts,
+an open empty background and a ladder extending out of view. Grounding the beams
+fixed asset placement, but did not give the route a convincing building section.
+Proposed sequence: apothecary interior stair and roof exit -> short gutter crossing
+with a visible destination -> broken tower wall opening -> offset inner bell shaft
+with intermediate alcoves -> bell mechanism/reward -> a nearby roof shortcut back
+to the court. Solid wall masses and ceiling breaks should define the route before
+planks are placed. Reuse existing building/ruin/timber assets at consistent scale.
+Use a few jumps with different approach conditions; let sheltered ledges provide
+recovery and one meaningful encounter. Do not fill every shelf with an enemy.
+Check: jumps fit measured movement, next landing is visible before commitment,
+fall recovery is legible, and the reward produces a useful return connection.
+
+3. DROWNED GALLERY - DESIGN A WATER ROOM BEFORE ADDING SHADER COMPLEXITY
+Observed: water fills much of a rectangular brick chamber. At the captured depth,
+the player, coins and far shapes have weak separation. The surface and wall repeat
+across the view; the image gives little spatial explanation of the water system.
+Proposed sequence: shallow entry shelf -> pump overview showing high/low states ->
+divided cistern around a substantial central pier -> optional lower swim passage ->
+dry upper landing and flood-control destination. Put the inlet, overflow and gate
+where their function is visible. Show a reward/shortcut from the safe overview.
+Tie any current to the inlet/outlet; retain safe eddies and a readable exit.
+Use water caustics/reflections/wakes/contact SFX to describe this geometry, with
+underwater contrast tuned for enemies and route edges, not just more highlights.
+Check: high and low water states, both directions, missed pump, player recovery,
+controller swimming, foreground occlusion, and enemy readability while moving.
+
+4. CHAPEL AND UNDERCROFT - MAKE THE RETURN LEG UNDERSTANDABLE
+Observed: the undercroft capture is a broad flat brick hallway with two candles
+and small station text. The map has branches but still reads strongly as one
+long axis, with a long lower transport link. Connection alone does not create a
+compact, memorable loop or explain the return from the boss's camera position.
+Proposed sequence: establish chapel/door silhouette before the encounter -> clear
+boss floor with useful overhead space -> reward pause -> obvious opened return arch
+and visible first descent landing -> vaulted station chamber -> useful return to
+the known court. Shorten empty travel where possible; use distinct side chambers
+and overlooked destinations to make return choices matter. A tram can serve the
+world, but cannot substitute for all local circulation.
+Keep the existing post-boss physical route and release of missed optional gates
+functional while rebuilding. Never make a new decoration obstruct it.
+Check: defeat the boss before optional pump/prison switches, leave the Moon Key
+or side loot unfinished, return on foot/climbs and transport, re-enter the chapel,
+resume from results, and continue forward. Use normal gameplay camera and inputs.
+
+5. ENCOUNTERS AND PRESENTATION ACROSS THE SEQUENCE
+Place enemies after choosing room actions. A shield guard can hold a broad lane;
+a ranged enemy can expose a safe approach decision; a flying enemy needs useful
+airspace and recovery landings. Confirm exact roles against actual enemy behavior.
+Do not tune all encounters as the same group with different sprites. Verify sword
+contact, visual root stability, reaction, impact audio and escape space in live
+combat; footage sampling cannot prove the earlier swing/teleport issues resolved.
+Use the source's contrast between quiet and pressured rooms. Do not add hazards,
+props, VFX and enemies to every available gap.
+
+ORDER OF WORK
+Start with the court-to-bell-to-court sequence as a coherent playable slice.
+Define room cross-sections, local loop and camera reveals; build and play the
+geometry; stage encounters; then dress and light. Expand the same discipline to
+the cistern and chapel. Preserve controller operation and backtracking throughout.
+Compare new captures with old captures and the specific reference passages.
+Do not call all twelve stages polished because the first slice improves.
+
+IMPLEMENTATION PROGRESS - COURT / APOTHECARY / BELL LOOP, 2026-10-30
+An initial playable pass now implements the court frontage, two offset apothecary
+stairs, enclosed loft, exposed roof crossing, tower piers/ceiling, alternating
+stone landings and a separate belfry reward space. Windows retain their source
+arch/sill pixel scale while extending panes vertically. Source-aligned lighting
+and restrained beams distinguish the warm apothecary from the cooler tower.
+The reward winch unlocks a callable bell cage at x4915; its descending shaft is
+clear of intermediate ledges. It provides a separate return path to street level.
+The exploration HUD uses two corner panels rather than full-width top/bottom bars.
+Stage 1 has 40 enemies, 55 surfaces and 118 coins after this pass. These counts
+describe content, not design quality or a measured first-clear duration.
+
+The route is checked from spawn through the reward and back to the court using
+native keyboard/controller events, normal health and active enemies. Three guards
+are defeated through actual combat on that test route. Full-stage connectivity
+and the missed-switch boss return are separate regression checks. A canal ledge
+was raised eight pixels to remove a snag against the adjoining return rail.
+GPU captures are in artifacts/district_bell_*_new.png; bell-live-*.png are taken
+from the continuous input run, without repositioning between those captures.
+
+The original cistern and chapel design briefs remain outstanding. Continue visual
+review of the redesigned loop; passing its input route is not a substitute for
+first-time human playtesting or a claim that the campaign is fully polished.
+
+HOUSE INTEGRATION CORRECTION - 2026-10-30
+The user rejected the first facade pass as disconnected and insufficiently blended.
+The opening cottages, apothecary and roof annex have now been rebuilt using the
+matching House Inside/Outside kit at a consistent 3x source-pixel scale. Complete
+exteriors, continuous foundations/cornices, cutaway interior infills and physical
+wall skins replace the earlier collage of miniature houses and detached roof art.
+The apothecary's hearth contains the relocated fire; furniture fits specific bays.
+Interior lighting uses the actual world positions of the baked window fixtures.
+Rain shelter samples the opaque roof pixels. Closed facades do not receive interior
+floor shadows. Overview renders use tests/housing_visuals.gd; normal camera views
+include artifacts/district_housing_interior.png and district_housing_street.png.
+Native keyboard/controller bell-loop runs and crop/placement/weather checks pass.
+This correction covers the opening block; other buildings still need review.
+
+FERR2D PACKAGE ASSESSMENT
+The supplied Unity package was inspected without importing its files. It contains
+Unity-dependent terrain/path/editor scripts, shaders, textures and examples.
+It cannot run directly in this Godot project. Suitable terrain textures can be
+evaluated for reuse and its path/edge/fill workflow can inform a native Godot tool.
+No Ferr2D plugin port or engine migration has been performed. Inventory and source
+path are recorded in artifacts/reference-study/ferr2d-package-review.json.
+
+FERR2D / FIXTURE / ATTACK CORRECTION PASS - 2026-10-30
+The assessment above is now followed by a native Godot adaptation of the inspected
+directional-edge/fill workflow. Fourteen foundations use a shared authored contour
+for collision, visible fill and shadow casting, with the package's unchanged local
+RockyFill and existing pixel-art surface courses. This is not a Unity plugin port.
+
+Direct asset inspection found a scaffold/table embedded in the ladder source and
+an unrelated textile merged below the extracted fireplace mantel. Climbs now use
+48px clean rails at uniform scale. Interior furnishings have supported footprints;
+the mantel is cropped to its actual opening/base and paired with a separate fire.
+Interior panes exclude exterior shutters. Open streets/balconies use lantern posts;
+wall torches have rear architecture. Underground rear walls close the prison's sky
+gap. Village and legacy town outdoor candelabras are also replaced by grounded posts.
+
+Fire sprites now separate a horizontal log bed from four animated flame frames.
+Glow, real district point lights and smoke reference the same visible emitter.
+Exterior fixtures illuminate closed facades on a separate mask, avoiding shadows
+from interior floors painted across the plaster. Interior lights still illuminate
+the cutaway normally. Source alignment is checked in normal camera renders.
+
+The Orc attack sheet was reviewed cell by cell: 0/1 anticipate, 2/3 sweep, 4/5
+recover. Damage/swish/trail begin in the sweep; interrupted attacks lose their
+attached effects. Anticipation/recovery no longer cause body-contact damage.
+Ranged casts wait for the visible release phase, with launch/contact/terrain cues.
+Twenty-eight derived attack sounds have local SFX provenance and remain excluded
+from Git alongside all other media. Only source and text manifests are published.
+
+Verification includes the twelve targeted fixture/attack checks; live normal-damage
+keyboard/controller bell-loop replays with active enemies; both post-boss return
+inputs with missed optional switches; all twelve controller guardian fights;
+placement, crop, weather and renderer checks. Normal-camera renders were inspected
+for the loft, hearth, street, prison, active blade sweep and village lanterns.
+This establishes the correction's function and sampled presentation. It does not
+complete the cistern/return-gallery redesign or the other eleven stage reviews.

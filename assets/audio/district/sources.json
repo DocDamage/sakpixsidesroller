@@ -1,0 +1,386 @@
+{
+  "attack": [
+    {
+      "path": "res://assets/audio/district/attack_0.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_sword_swing_1_metal_short_medium_swing.wav",
+      "duration": 0.6
+    },
+    {
+      "path": "res://assets/audio/district/attack_1.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_sword_swing_2_metal_short_medium_swing.wav",
+      "duration": 0.6
+    }
+  ],
+  "finisher": [
+    {
+      "path": "res://assets/audio/district/finisher_0.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_heavy_sword_swing_1_metal_long_heavy_swing.wav",
+      "duration": 0.9
+    },
+    {
+      "path": "res://assets/audio/district/finisher_1.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_heavy_sword_swing_2_metal_long_heavy_swing.wav",
+      "duration": 0.9
+    }
+  ],
+  "hit": [
+    {
+      "path": "res://assets/audio/district/hit_0.wav",
+      "source": "SFX/One_Shots/Fight/ESM_MVG_fx__impact_one_shot_fight_hit_cruch_enemy_2_hit_short_hard.wav",
+      "duration": 0.55
+    },
+    {
+      "path": "res://assets/audio/district/hit_1.wav",
+      "source": "SFX/One_Shots/Fight/ESM_MVG_fx__impact_one_shot_fight_hit_enemy_1_hit_short_hard.wav",
+      "duration": 0.55
+    }
+  ],
+  "heavy_hit": [
+    {
+      "path": "res://assets/audio/district/heavy_hit_0.wav",
+      "source": "SFX/One_Shots/Gore/ESM_MVG_fx_impact_one_shot_enemy_fight_short_hard.wav",
+      "duration": 0.75
+    },
+    {
+      "path": "res://assets/audio/district/heavy_hit_1.wav",
+      "source": "SFX/One_Shots/Gore/ESM_MVG_fx_impact_one_shot_fight_short_blood_wet.wav",
+      "duration": 0.75
+    }
+  ],
+  "flesh_layer": [
+    {
+      "path": "res://assets/audio/district/flesh_layer_0.wav",
+      "source": "SFX/One_Shots/Gore/ESM_MVG_fx_impact_one_shot_enemy_fight_short_hard.wav",
+      "duration": 0.55
+    },
+    {
+      "path": "res://assets/audio/district/flesh_layer_1.wav",
+      "source": "SFX/One_Shots/Gore/ESM_MVG_fx_impact_one_shot_fight_short_blood_wet.wav",
+      "duration": 0.55
+    }
+  ],
+  "armor": [
+    {
+      "path": "res://assets/audio/district/armor_0.wav",
+      "source": "SFX/One_Shots/Metal/ESM_MVG_fx_impact_one_shot_metal_cracky_hit_2_hit_fight_short_hard_thic.wav",
+      "duration": 0.6
+    },
+    {
+      "path": "res://assets/audio/district/armor_1.wav",
+      "source": "SFX/One_Shots/Metal/ESM_MVG_fx_impact_one_shot_metal_hammer_on_1_hit_fight_short_hard.wav",
+      "duration": 0.6
+    }
+  ],
+  "guard_break": [
+    {
+      "path": "res://assets/audio/district/guard_break_0.wav",
+      "source": "SFX/One_Shots/Metal/ESM_MVG_fx_impact_one_shot_metal_cracky_hit_2_hit_fight_short_hard_thic.wav",
+      "duration": 0.85
+    },
+    {
+      "path": "res://assets/audio/district/guard_break_1.wav",
+      "source": "SFX/One_Shots/Metal/ESM_MVG_fx_impact_one_shot_metal_hammer_on_1_hit_fight_short_hard.wav",
+      "duration": 0.85
+    }
+  ],
+  "enemy_notice": [
+    {
+      "path": "res://assets/audio/district/enemy_notice_0.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_attacker_1_quick_growl_tiger_chuff.wav",
+      "duration": 0.7
+    },
+    {
+      "path": "res://assets/audio/district/enemy_notice_1.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_attacker_2_quick_growl_tiger_chuff.wav",
+      "duration": 0.7
+    }
+  ],
+  "enemy_defeat": [
+    {
+      "path": "res://assets/audio/district/enemy_defeat_0.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_die_1_slow_low_medium_growl.wav",
+      "duration": 1.1
+    },
+    {
+      "path": "res://assets/audio/district/enemy_defeat_1.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_die_2_slow_low_medium_growl.wav",
+      "duration": 1.1
+    }
+  ],
+  "foot_stone": [
+    {
+      "path": "res://assets/audio/district/foot_stone_0.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_footstep_armed_in_boots_1_hard_medium_impact_steps_armed.wav",
+      "duration": 0.32
+    },
+    {
+      "path": "res://assets/audio/district/foot_stone_1.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_footstep_armed_in_boots_2_hard_medium_impact_steps_armed.wav",
+      "duration": 0.32
+    }
+  ],
+  "foot_wood": [
+    {
+      "path": "res://assets/audio/district/foot_wood_0.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_impact_one_shot_footstep_in_boots_1_hard_wood_steps.wav",
+      "duration": 0.34
+    },
+    {
+      "path": "res://assets/audio/district/foot_wood_1.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_impact_one_shot_footstep_in_boots_2_hard_wood_steps.wav",
+      "duration": 0.34
+    }
+  ],
+  "foot_grass": [
+    {
+      "path": "res://assets/audio/district/foot_grass_0.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_impact_one_shot_footstep_on_grass_1_light_grass_steps.wav",
+      "duration": 0.35
+    },
+    {
+      "path": "res://assets/audio/district/foot_grass_1.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_impact_one_shot_footstep_on_grass_2_light_grass_steps.wav",
+      "duration": 0.35
+    }
+  ],
+  "foot_wet": [
+    {
+      "path": "res://assets/audio/district/foot_wet_0.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_step_in_wet_1_water_short_steps_wet_mud.wav",
+      "duration": 0.4
+    },
+    {
+      "path": "res://assets/audio/district/foot_wet_1.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_step_in_wet_2_water_short_steps_wet_mud.wav",
+      "duration": 0.4
+    }
+  ],
+  "climb": [
+    {
+      "path": "res://assets/audio/district/climb_0.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_impact_one_shot_footstep_in_boots_1_hard_wood_steps.wav",
+      "duration": 0.35
+    },
+    {
+      "path": "res://assets/audio/district/climb_1.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_impact_one_shot_footstep_in_boots_2_hard_wood_steps.wav",
+      "duration": 0.35
+    }
+  ],
+  "wall_jump": [
+    {
+      "path": "res://assets/audio/district/wall_jump_0.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_heavy_step_debris_medium_1_heavy_hard_snad_stone_derbris.wav",
+      "duration": 0.5
+    },
+    {
+      "path": "res://assets/audio/district/wall_jump_1.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_heavy_step_debris_medium_2_heavy_hard_snad_stone_derbris.wav",
+      "duration": 0.5
+    }
+  ],
+  "dash": [
+    {
+      "path": "res://assets/audio/district/dash_0.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_quick_dash_1_cloak_armed_whoosh_hard_quick.wav",
+      "duration": 0.55
+    },
+    {
+      "path": "res://assets/audio/district/dash_1.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_quick_dash_2_cloak_armed_whoosh_hard_quick.wav",
+      "duration": 0.55
+    }
+  ],
+  "swim": [
+    {
+      "path": "res://assets/audio/district/swim_0.wav",
+      "source": "SFX/One_Shots/Water/ESM_MVG_fx_water_one_shot_drop1_element_quick_short_reverb.wav",
+      "duration": 0.6
+    },
+    {
+      "path": "res://assets/audio/district/swim_1.wav",
+      "source": "SFX/One_Shots/Water/ESM_MVG_fx_water_one_shot_drop2_element_quick_short_reverb.wav",
+      "duration": 0.6
+    }
+  ],
+  "water_entry": [
+    {
+      "path": "res://assets/audio/district/water_entry_0.wav",
+      "source": "SFX/One_Shots/Water/ESM_MVG_fx_water_one_shot_drop1_element_quick_short_reverb.wav",
+      "duration": 0.8
+    },
+    {
+      "path": "res://assets/audio/district/water_entry_1.wav",
+      "source": "SFX/One_Shots/Water/ESM_MVG_fx_water_one_shot_drop2_element_quick_short_reverb.wav",
+      "duration": 0.8
+    }
+  ],
+  "water_exit": [
+    {
+      "path": "res://assets/audio/district/water_exit_0.wav",
+      "source": "SFX/One_Shots/Water/ESM_MVG_fx_water_one_shot_drop1_element_quick_short_reverb.wav",
+      "duration": 0.65
+    },
+    {
+      "path": "res://assets/audio/district/water_exit_1.wav",
+      "source": "SFX/One_Shots/Water/ESM_MVG_fx_water_one_shot_drop2_element_quick_short_reverb.wav",
+      "duration": 0.65
+    }
+  ],
+  "gate": [
+    {
+      "path": "res://assets/audio/district/gate_0.wav",
+      "source": "SFX/One_Shots/Doors/ESM_MVG_fx_door_one_shot_gate_lever_1_interactive_object_open_metal_mechanical.wav",
+      "duration": 1.2
+    },
+    {
+      "path": "res://assets/audio/district/gate_1.wav",
+      "source": "SFX/One_Shots/Doors/ESM_MVG_fx_door_one_shot_gate_lever_2_interactive_object_open_metal_mechanical.wav",
+      "duration": 1.2
+    }
+  ],
+  "lever": [
+    {
+      "path": "res://assets/audio/district/lever_0.wav",
+      "source": "SFX/One_Shots/Objects/ESM_MVG_fx_impact_one_shot_interactive_object_switch_1_switch_clicky_short.wav",
+      "duration": 0.5
+    },
+    {
+      "path": "res://assets/audio/district/lever_1.wav",
+      "source": "SFX/One_Shots/Objects/ESM_MVG_fx_impact_one_shot_interactive_object_switch_2_switch_clicky_short.wav",
+      "duration": 0.5
+    }
+  ],
+  "lift_stop": [
+    {
+      "path": "res://assets/audio/district/lift_stop_0.wav",
+      "source": "SFX/One_Shots/Chains/ESM_MVG_fx_break_one_shot_chain_element_metal_small_short.wav",
+      "duration": 0.7
+    },
+    {
+      "path": "res://assets/audio/district/lift_stop_1.wav",
+      "source": "SFX/One_Shots/Chains/ESM_MVG_fx_break_one_shot_chain_element_metal_smaller_short.wav",
+      "duration": 0.7
+    }
+  ],
+  "grapple": [
+    {
+      "path": "res://assets/audio/district/grapple_0.wav",
+      "source": "SFX/One_Shots/Chains/ESM_MVG_fx_break_one_shot_chain_element_metal_small_short.wav",
+      "duration": 0.65
+    },
+    {
+      "path": "res://assets/audio/district/grapple_1.wav",
+      "source": "SFX/One_Shots/Chains/ESM_MVG_fx_break_one_shot_chain_element_metal_smaller_short.wav",
+      "duration": 0.65
+    }
+  ],
+  "water_gate": [
+    {
+      "path": "res://assets/audio/district/water_gate_0.wav",
+      "source": "SFX/One_Shots/Doors/ESM_MVG_fx_door_one_shot_gate_lever_1_interactive_object_open_metal_mechanical.wav",
+      "duration": 1.4
+    },
+    {
+      "path": "res://assets/audio/district/water_gate_1.wav",
+      "source": "SFX/One_Shots/Doors/ESM_MVG_fx_door_one_shot_gate_lever_2_interactive_object_open_metal_mechanical.wav",
+      "duration": 1.4
+    }
+  ],
+  "equipment": [
+    {
+      "path": "res://assets/audio/district/equipment_0.wav",
+      "source": "SFX/One_Shots/Item/ESM_MVG_fx_item_one_shot_crystal_1_itme_stone_gem_obtain_clincky.wav",
+      "duration": 0.9
+    },
+    {
+      "path": "res://assets/audio/district/equipment_1.wav",
+      "source": "SFX/One_Shots/Item/ESM_MVG_fx_item_one_shot_crystal_2_itme_stone_gem_obtain_clincky.wav",
+      "duration": 0.9
+    }
+  ],
+  "secret": [
+    {
+      "path": "res://assets/audio/district/secret_0.wav",
+      "source": "SFX/One_Shots/Item/ESM_MVG_fx_item_one_shot_crystal_1_itme_stone_gem_obtain_clincky.wav",
+      "duration": 1.1
+    },
+    {
+      "path": "res://assets/audio/district/secret_1.wav",
+      "source": "SFX/One_Shots/Item/ESM_MVG_fx_item_one_shot_crystal_2_itme_stone_gem_obtain_clincky.wav",
+      "duration": 1.1
+    }
+  ],
+  "rest": [
+    {
+      "path": "res://assets/audio/district/rest_0.wav",
+      "source": "SFX/One_Shots/UI/ESM_MVG_fx_ui_one_shot_continue_1_clicky_reverb_digital_long.wav",
+      "duration": 0.75
+    },
+    {
+      "path": "res://assets/audio/district/rest_1.wav",
+      "source": "SFX/One_Shots/UI/ESM_MVG_fx_ui_one_shot_continue_2_clicky_reverb_digital_long.wav",
+      "duration": 0.75
+    }
+  ],
+  "map_open": [
+    {
+      "path": "res://assets/audio/district/map_open_0.wav",
+      "source": "SFX/One_Shots/UI/ESM_MVG_fx_ui_one_shot_gear_select_1_select_short_clicky_gear_mechanical.wav",
+      "duration": 0.3
+    },
+    {
+      "path": "res://assets/audio/district/map_open_1.wav",
+      "source": "SFX/One_Shots/UI/ESM_MVG_fx_ui_one_shot_gear_select_2_select_short_clicky_gear_mechanical.wav",
+      "duration": 0.3
+    }
+  ],
+  "fire_detail": [
+    {
+      "path": "res://assets/audio/district/fire_detail_0.wav",
+      "source": "SFX/One_Shots/Fire/ESM_MVG_fx_fire_one_shot_sparkling_1_element_long_rise.wav",
+      "duration": 1.8
+    },
+    {
+      "path": "res://assets/audio/district/fire_detail_1.wav",
+      "source": "SFX/One_Shots/Fire/ESM_MVG_fx_fire_one_shot_sparkling_2_elementlong_rise.wav",
+      "duration": 1.8
+    }
+  ],
+  "break": [
+    {
+      "path": "res://assets/audio/district/break_0.wav",
+      "source": "SFX/One_Shots/Ceramics/ESM_MVG_fx_break_one_shot_tile_1_element_derbris_rock_shattering.wav",
+      "duration": 0.7
+    },
+    {
+      "path": "res://assets/audio/district/break_1.wav",
+      "source": "SFX/One_Shots/Ceramics/ESM_MVG_fx_break_one_shot_tile_2_element_derbris_rock_shattering.wav",
+      "duration": 0.7
+    }
+  ],
+  "land": [
+    {
+      "path": "res://assets/audio/district/land_0.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_heavy_step_debris_medium_1_heavy_hard_snad_stone_derbris.wav",
+      "duration": 0.5
+    },
+    {
+      "path": "res://assets/audio/district/land_1.wav",
+      "source": "SFX/One_Shots/Movements/ESM_MVG_fx_movement_one_shot_heavy_step_debris_medium_2_heavy_hard_snad_stone_derbris.wav",
+      "duration": 0.5
+    }
+  ],
+  "water_drip": [
+    {
+      "path": "res://assets/audio/district/water_drip_0.wav",
+      "source": "SFX/One_Shots/Water/ESM_MVG_fx_water_one_shot_drop1_element_quick_short_reverb.wav",
+      "duration": 1.1
+    },
+    {
+      "path": "res://assets/audio/district/water_drip_1.wav",
+      "source": "SFX/One_Shots/Water/ESM_MVG_fx_water_one_shot_drop2_element_quick_short_reverb.wav",
+      "duration": 1.1
+    }
+  ]
+}

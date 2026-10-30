@@ -1,0 +1,2 @@
+@echo off
+start "Rootbound Catacombs" /D "%~dp0" "%~dp0Godot\Godot_v4.7.2-stable_win64.exe" --path "%~dp0." res://scenes/rootbound_catacombs.tscn

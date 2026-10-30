@@ -1,0 +1,170 @@
+{
+  "guard_swing": [
+    {
+      "path": "res://assets/audio/enemies/guard_swing_0.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_heavy_sword_swing_1_metal_long_heavy_swing.wav",
+      "duration": 0.45
+    },
+    {
+      "path": "res://assets/audio/enemies/guard_swing_1.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_heavy_sword_swing_2_metal_long_heavy_swing.wav",
+      "duration": 0.45
+    }
+  ],
+  "witch_fire": [
+    {
+      "path": "res://assets/audio/enemies/witch_fire_0.wav",
+      "source": "SFX/One_Shots/Electricity/ESM_MVG_fx_electric_one_shot_shock_1_element_energy_long_blast_shock.wav",
+      "duration": 0.45
+    },
+    {
+      "path": "res://assets/audio/enemies/witch_fire_1.wav",
+      "source": "SFX/One_Shots/Electricity/ESM_MVG_fx_electric_one_shot_shock_2_element_energy_long_blast_shock.wav",
+      "duration": 0.45
+    }
+  ],
+  "eye_fire": [
+    {
+      "path": "res://assets/audio/enemies/eye_fire_0.wav",
+      "source": "SFX/One_Shots/Fire/ESM_MVG_fx_fire_one_shot_steam_element_1_water_hot_air_poision_hiss.wav",
+      "duration": 0.4
+    },
+    {
+      "path": "res://assets/audio/enemies/eye_fire_1.wav",
+      "source": "SFX/One_Shots/Fire/ESM_MVG_fx_fire_one_shot_steam_element_2_water_hot_air_poision_hiss.wav",
+      "duration": 0.4
+    }
+  ],
+  "mosquito_dive": [
+    {
+      "path": "res://assets/audio/enemies/mosquito_dive_0.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_wood_stick_swing_1_basic_short_light_swing.wav",
+      "duration": 0.3
+    },
+    {
+      "path": "res://assets/audio/enemies/mosquito_dive_1.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_wood_stick_swing_2_basic_short_light_swing.wav",
+      "duration": 0.3
+    }
+  ],
+  "armor_ready": [
+    {
+      "path": "res://assets/audio/enemies/armor_ready_0.wav",
+      "source": "SFX/One_Shots/Chains/ESM_MVG_fx_break_one_shot_chain_element_metal_tiny_short.wav",
+      "duration": 0.35
+    },
+    {
+      "path": "res://assets/audio/enemies/armor_ready_1.wav",
+      "source": "SFX/One_Shots/Chains/ESM_MVG_fx_break_one_shot_chain_element_metal_smaller_short.wav",
+      "duration": 0.35
+    }
+  ],
+  "beast_ready": [
+    {
+      "path": "res://assets/audio/enemies/beast_ready_0.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_attacker_1_quick_growl_tiger_chuff.wav",
+      "duration": 0.4
+    },
+    {
+      "path": "res://assets/audio/enemies/beast_ready_1.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_attacker_2_quick_growl_tiger_chuff.wav",
+      "duration": 0.4
+    }
+  ],
+  "warden_swing": [
+    {
+      "path": "res://assets/audio/enemies/warden_swing_0.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_giant_quick_swing_1_basic_short_heavy_swing.wav",
+      "duration": 0.55
+    },
+    {
+      "path": "res://assets/audio/enemies/warden_swing_1.wav",
+      "source": "SFX/One_Shots/Weapon/ESM_MVG_fx_weapon_one_shot_giant_quick_swing_2_basic_short_heavy_swing.wav",
+      "duration": 0.55
+    }
+  ],
+  "rat_lunge": [
+    {
+      "path": "res://assets/audio/enemies/rat_lunge_0.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_cat_noise_1_short_quick_high_pitch.wav",
+      "duration": 0.35
+    },
+    {
+      "path": "res://assets/audio/enemies/rat_lunge_1.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_cat_noise_2_short_quick_high_pitch.wav",
+      "duration": 0.35
+    }
+  ],
+  "bat_dive": [
+    {
+      "path": "res://assets/audio/enemies/bat_dive_0.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_chatter_1_bird_chatter_fast.wav",
+      "duration": 0.4
+    },
+    {
+      "path": "res://assets/audio/enemies/bat_dive_1.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_chatter_2_bird_chatter_fast.wav",
+      "duration": 0.4
+    }
+  ],
+  "mimic_snap": [
+    {
+      "path": "res://assets/audio/enemies/mimic_snap_0.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_beast_1_quick_short_enemy_attack.wav",
+      "duration": 0.5
+    },
+    {
+      "path": "res://assets/audio/enemies/mimic_snap_1.wav",
+      "source": "SFX/One_Shots/Creature/ESM_MVG_fx_creature_one_shot_beast_2_quick_short_enemy_attack.wav",
+      "duration": 0.5
+    }
+  ],
+  "mushroom_rush": [
+    {
+      "path": "res://assets/audio/enemies/mushroom_rush_0.wav",
+      "source": "SFX/One_Shots/Gore/ESM_MVG_fx_impact_one_shot_fight_short_blood_wet.wav",
+      "duration": 0.4
+    },
+    {
+      "path": "res://assets/audio/enemies/mushroom_rush_1.wav",
+      "source": "SFX/One_Shots/Gore/ESM_MVG_fx_impact_one_shot_fight_short_blood_wet_02.wav",
+      "duration": 0.4
+    }
+  ],
+  "spit": [
+    {
+      "path": "res://assets/audio/enemies/spit_0.wav",
+      "source": "SFX/One_Shots/Fire/ESM_MVG_fx_fire_one_shot_steam_element_1_water_hot_air_poision_hiss.wav",
+      "duration": 0.35
+    },
+    {
+      "path": "res://assets/audio/enemies/spit_1.wav",
+      "source": "SFX/One_Shots/Fire/ESM_MVG_fx_fire_one_shot_steam_element_2_water_hot_air_poision_hiss.wav",
+      "duration": 0.35
+    }
+  ],
+  "spell_impact": [
+    {
+      "path": "res://assets/audio/enemies/spell_impact_0.wav",
+      "source": "SFX/One_Shots/Fire/ESM_MVG_fx_fire_one_shot_short_steam_1_element_quick_short_water_air_hot.wav",
+      "duration": 0.4
+    },
+    {
+      "path": "res://assets/audio/enemies/spell_impact_1.wav",
+      "source": "SFX/One_Shots/Fire/ESM_MVG_fx_fire_one_shot_short_steam_2_element_quick_short_water_air_hot.wav",
+      "duration": 0.4
+    }
+  ],
+  "enemy_contact": [
+    {
+      "path": "res://assets/audio/enemies/enemy_contact_0.wav",
+      "source": "SFX/One_Shots/Fight/ESM_MVG_fx__impact_one_shot_fight_hit_enemy_1_hit_short_hard.wav",
+      "duration": 0.4
+    },
+    {
+      "path": "res://assets/audio/enemies/enemy_contact_1.wav",
+      "source": "SFX/One_Shots/Gore/ESM_MVG_fx_impact_one_shot_hit_fight_short_hard.wav",
+      "duration": 0.4
+    }
+  ]
+}
